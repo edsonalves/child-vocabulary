@@ -1,0 +1,3709 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#January"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#wife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tired"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Read"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Astronaut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Happen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Envelope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Worst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bowl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#strong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#bad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_Out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Soft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Small"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Granddaughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#stand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mountain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Helicopter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Engineer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mistake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Single"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dictionary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Back"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Teacher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Toilet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Very"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Storm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Table_tennis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Long"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Soup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cloudy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#February"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Corner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#forget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Glue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Arrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Talk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Snowball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Potato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Empty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#shout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#sell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Autumn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Magazine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Matter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Daddy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Snowman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#open"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Throw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Catch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#better"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#beautiful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Choose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#pull"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Swan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Do"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Short"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cloud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lorry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Drink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Help"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Parrot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#unfriendly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Umbrella"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Comb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Planet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Word"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Coconut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Closed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Heavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Different"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ski_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Eraser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Write"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Girl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Listen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Painter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Countryside"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Front"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Explain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Policeman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#son"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Conversation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Believe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Jam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Flower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Finish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Player"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Let"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Giraffe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Top"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dangerous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Say"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Businesswoman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Jump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Come"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Call"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Problem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Foot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Math"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#History"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Black"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Postcard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#lose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Need"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Quiet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pirate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Castle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#start"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Present"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Late"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Jacket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Supper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bathroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bus_station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sorry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#hot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Arm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#poor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lizard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tuesday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Plate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Truck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bottom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Brother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Octopus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Clown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#clean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Clothes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Horrible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Well"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Break"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Watermelon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Best"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Husband"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Close"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Important"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#husband"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#TV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grandma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Art"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dining_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Glove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Monday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shorts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_After"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Secretary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Little"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Handbag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Paper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Story"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Comic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Club"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Send"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#hate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Skate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Suitcase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Swimming_pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_Off"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Gray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Kitchen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Door"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Basement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Smile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#brother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#December"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#expensive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Team"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Question"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cookie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#father"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Jungle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Camel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Decide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Video"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Surprised"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#New"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Open"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Off"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Know"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Baseball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Third"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Playground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rucksack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Striped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bird"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dentist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#friendly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#leave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Toy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#lie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_On"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#well"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Loud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#soft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Picture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#last"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grandpa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Traffic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Carry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Woman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Baby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fire_station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Friendly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Telephone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Round"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Can"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tiger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Onion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Market"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Journalist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Kitten"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Buy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Clean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Silver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Blanket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Desert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#White"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Homework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Earache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#dirty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Young"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#empty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cousin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Spider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lunch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#sit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bus_stop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stomach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tonight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Classroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#long"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Big"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Snake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Factory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Way"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Radio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shoe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Salt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#West"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#early"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#girl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Awake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lemonade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#End"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Board"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Balcony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pull"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Father"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ambulance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Draw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Have_Got"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Geography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Nose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sweater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pencil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Artist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Broken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lesson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#October"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Skip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Guess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Expensive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ugly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#old"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Minute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Begin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#fast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dinosaur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Famous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pepper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Will"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Difference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Uncle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Train"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_On"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Gold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Unhappy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Poor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Kangaroo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Beautiful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Exciting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Letter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Answer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Push"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rubber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Add"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_For"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Post_office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Thank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Strong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Future"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fall_Over"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Zoo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#English"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#bottom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#April"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Friend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Yesterday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dinner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#mother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#East"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Difficult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Exam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Double"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Taste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Star"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fireman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ready"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#sister"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Teach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Business"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Blond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Police_station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lovely"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Afternoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Next"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#CD_player"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#quiet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#arrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rocket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Monster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Farmer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#aunt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Eye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#close"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tomato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Job"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Moustache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#late"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Start"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hungry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_On"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Prefer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pocket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#June"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Play"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#dry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Easy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Golf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Post"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#go"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Secret"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pyramid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rabbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tooth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#All_Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Worse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Eat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Belt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#South"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#untidy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Boy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#North"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Dressed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Boring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Enough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mechanic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Think"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Garden"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Married"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Daughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Candy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Footballer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Theatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grandparent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Correct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Brave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#young"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Moon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Beard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Parent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Goat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Swing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Whisper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cooker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Example"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dirty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Desk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dvd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Biscuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Butterfly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Beach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Forget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Butter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Island"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Piece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Towel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hockey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_Like"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#London"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grandmother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Show"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Crocodile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#heavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Excited"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#November"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Month"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Follow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Spotted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Frog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Nice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Leaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shelf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Skirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bicycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Remember"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#cold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Apartment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Men"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#short"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Thin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#little"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stomachache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Glasses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Afraid_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mirror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lemon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Flashlight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#good"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Meet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Great"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Live"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#unhappy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Evening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Busy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Steal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wrong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#T-shirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Same"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#love"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Son"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Warm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Visit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Motorbike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Noisy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Today"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#September"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Clever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Uniform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Clock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#round"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Second"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Drive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Treasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Scissors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#full"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Football"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Slow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Face"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bottle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hobby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Summer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Businessmen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Thursday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Driver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#child"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#top"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Midnight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Television"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Camp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ski"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Paint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#wet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Soap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mango"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#worse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cheap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Drawing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#River"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Policewoman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sentence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shoulder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Waterfall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grandson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pasta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Piano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Quarter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Snack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#begin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Whale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Happy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Meeting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#whisper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#weak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sweet_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Head"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#tidy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Favourite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Taxi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Friday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Learn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Thirsty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#thirsty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Complete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sunny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Better"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Half"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sheep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Song"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Photographer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Purple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bookcase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fire_engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Kite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hurt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Guitar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Night"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Supermarket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sausage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fetch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Flag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Scarf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Coat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Invite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mouth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Living_room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Doll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Try"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#easy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Aunt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#white"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#remember"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Christmas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Duck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Spot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Comic_book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Child"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#back"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Whistle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Window"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#difficult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Love"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Foggy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Weather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Kind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Agree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stripe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chemist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Walk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#show"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Windy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#black"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#August"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Saturday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#end"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Naughty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#buy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Winter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Speak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#hard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Armchair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#uncle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Spend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#answer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Torch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#See"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Weak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#front"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Snow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tomorrow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Town"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Straight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sofa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Circus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Boat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Village"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Weekend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#big"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Run"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#same"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Toothbrush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Give"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Want"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#push"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wednesday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Drop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sister"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bedroom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Toothache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Move"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Photo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Strange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Horse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chicken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#thin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Terrible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Soccer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Smell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Surname"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Diary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Kick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ticket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Quick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Badminton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Swim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grandfather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Volleyball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Interesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wake_Up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#First"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ugly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#July"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Untidy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#male_child"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Money"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Plastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Old"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Home"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pilot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Century"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Carrot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_To"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Good"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Waiter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Feel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Laugh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_Off"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hippo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#March"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Make"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Careful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Queen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#College"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Street"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Spoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tape_recorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Movie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Angry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Kilometre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Full"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cinema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Spring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Holiday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Morning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Missing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cross"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Zero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#slow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Climb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Brush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#worst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Panda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sunday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chips"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Store"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bookshop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Monkey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Extinct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Flat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Last"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#cry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cupboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#May"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Birthday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ruler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Glass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Puppy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Early"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Far"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Knife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dolphin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Milk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Midday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ice_cream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Banana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#CD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Elephant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#best"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Air"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Leave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Unfriendly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Idea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Burn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tidy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Page"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Elevator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#happy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Race"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Newspaper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mummy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Insect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Painting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Leg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#News"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Alphabet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Upstairs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#cheap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Competition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Excellent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#daughter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Funny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Plane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Win"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rainbow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Singer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Spell"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Arrive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#leave"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Aunt"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#uncle"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Back"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#front"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#good"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Beautiful"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ugly"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Begin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#end"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Best"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#worst"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Better"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#worse"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Big"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#little"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Black"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#white"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bottom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#top"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Boy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#girl"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Brother"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#sister"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Buy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#sell"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cheap"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#expensive"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Clean"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#dirty"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Close"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#open"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Closed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#open"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cold"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#hot"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Come"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#go"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dark"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#light"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Daughter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#son"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Different"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#same"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Difficult"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#easy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dirty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#clean"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#wet"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Early"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#late"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Easy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#difficult"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Empty"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#full"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#End"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#begin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Expensive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#cheap"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fast"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#slow"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#thin"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Father"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#mother"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#First"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#last"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Forget"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#remember"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Friendly"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#unfriendly"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Front"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#back"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Full"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#empty"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Good"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#bad"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Happy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#unhappy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#love"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Heavy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#light"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hide"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#show"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#High"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#low"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#cold"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hungry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#thirsty"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Husband"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#wife"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ill"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#well"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Late"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#early"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Laugh"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#cry"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Leave"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#arrive"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Left"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#right"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Light"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#heavy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Little"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#big"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Long"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#short"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Loud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#soft"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Love"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#hate"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Low"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#high"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mother"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#father"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#New"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#old"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Night"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#day"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Noisy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#quiet"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Old"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#young"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Open"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#close"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Parent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#child"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pull"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#push"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Push"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#pull"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Question"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#answer"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Remember"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#forget"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rich"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#poor"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Right"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#left"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Round"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#square"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sell"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#buy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Short"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#long"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shout"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#whisper"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sister"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#brother"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#lie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#stand"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Slow"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#fast"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Soft"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#hard"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Son"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#daughter"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Square"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#round"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stand"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#lie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stand"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#sit"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stop"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#start"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Strong"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#weak"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tall"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#short"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tidy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#untidy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Top"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#bottom"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ugly"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#beautiful"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Uncle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#aunt"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Unfriendly"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#friendly"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Unhappy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#happy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Untidy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#tidy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Walk"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ride"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Weak"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#strong"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Well"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ill"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#dry"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Whisper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#shout"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#White"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#black"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wife"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#husband"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Win"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#lose"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Worse"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#better"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Worst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#best"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wrong"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#right"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Young"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#old"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#beautiful"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ugly"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#son"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#daughter"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.2.20151107-1355) https://github.com/owlcs/owlapi -->
+
