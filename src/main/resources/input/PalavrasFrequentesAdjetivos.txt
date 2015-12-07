@@ -1,4 +1,4 @@
-Afraid 
+Afraid
 All Right
 Angry
 Awake
@@ -49,7 +49,7 @@ Famous
 Far
 Fast
 Fat
-Favourite
+Favorite
 Fine
 First
 Foggy

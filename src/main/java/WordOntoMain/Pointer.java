@@ -1,6 +1,6 @@
 package WordOntoMain;
 
-public enum ObjectPropertyType {
+public enum Pointer {
 
 	HAS_HYPERNYM,
 	HAS_HYPONYM,

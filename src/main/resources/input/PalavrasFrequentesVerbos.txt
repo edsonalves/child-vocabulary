@@ -139,7 +139,7 @@ Show
 Sing
 Sit
 Skate
-Ski 
+Ski
 Skip
 Sledge
 Sleep
@@ -159,7 +159,8 @@ Study
 Swim
 Swing
 Take
-Take a Photo (picture)
+Take a Photo
+Take a Picture
 Take Off
 Talk
 Taste
@@ -176,7 +177,7 @@ Try
 Turn
 Turn Off
 Turn On
-Undestand
+Understand
 Use
 Video
 Visit

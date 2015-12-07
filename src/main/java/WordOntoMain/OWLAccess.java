@@ -70,12 +70,12 @@ public class OWLAccess {
 	}
 	
 	
-	public void createObjectProperties(ObjectPropertyType objProperty, OWLClass class1, OWLClass class2){
+	public void createObjectProperties(Pointer objProperty, OWLClass class1, OWLClass class2){
 		// CRIA RELAÇÃO ENTRE DUAS CLASSES 
 
 		OWLDataFactory factory = manager.getOWLDataFactory();
 		
-		if (objProperty == ObjectPropertyType.IS_SIMILAR_TO){
+		if (objProperty == Pointer.IS_SIMILAR_TO){
 
 			OWLObjectProperty isSimilarTo = factory.getOWLObjectProperty(IRI.create("http://cin.ufpe.br/nmf/vocabularyOntology#isSimilarTo"));
 
@@ -85,7 +85,7 @@ public class OWLAccess {
 			manager.addAxiom(ontology, equivalentClassSimilar);
 
 
-		} else if (objProperty == ObjectPropertyType.IS_ANTONYM_OF){
+		} else if (objProperty == Pointer.IS_ANTONYM_OF){
 
 			OWLObjectProperty isAntonymOf = factory.getOWLObjectProperty(IRI.create("http://cin.ufpe.br/nmf/vocabularyOntology#isAntonymOf"));
 
@@ -96,13 +96,13 @@ public class OWLAccess {
 			manager.addAxiom(ontology, equivalentClassAntonym);
 			
 
-		} else if (objProperty == ObjectPropertyType.HAS_HYPERNYM){
+		} else if (objProperty == Pointer.HAS_HYPERNYM){
 
 			OWLSubClassOfAxiom isSubClassOf = factory.getOWLSubClassOfAxiom(class1, class2);
 
 			manager.addAxiom(ontology, isSubClassOf);
 			
-		} else if (objProperty == ObjectPropertyType.HAS_HYPONYM){
+		} else if (objProperty == Pointer.HAS_HYPONYM){
 			
 			OWLSubClassOfAxiom isSubClassOf = factory.getOWLSubClassOfAxiom(class2, class1);
 

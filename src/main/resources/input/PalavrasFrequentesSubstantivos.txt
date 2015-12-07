@@ -499,7 +499,7 @@ Space
 Spider
 Spoon
 Sport
-Sports centre
+Sports center
 Spot
 Spring
 Square
@@ -526,7 +526,7 @@ Supper
 Surname
 Swan
 Sweater
-Sweet 
+Sweet
 Swim
 Swimming pool
 Swing

@@ -89,6 +89,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Forest"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#cook"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mistake"/>
     </Declaration>
     <Declaration>
@@ -110,10 +113,10 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Back"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Teacher"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Toilet"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Toilet"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Teacher"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Very"/>
@@ -197,6 +200,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hat"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Favorite"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Daddy"/>
     </Declaration>
     <Declaration>
@@ -212,10 +218,10 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Throw"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Catch"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#better"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#better"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Catch"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#beautiful"/>
@@ -296,7 +302,7 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Different"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ski_"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#footballer"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Eraser"/>
@@ -369,6 +375,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Giraffe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#shop"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Top"/>
@@ -548,10 +557,10 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Husband"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Close"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Important"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Important"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Close"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chair"/>
@@ -654,6 +663,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Door"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#artist"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Book"/>
@@ -1028,16 +1040,19 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wish"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#drive"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fishing"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Geography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Nose"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sweater"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sweater"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Nose"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Car"/>
@@ -1301,6 +1316,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Afternoon"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sweet"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Next"/>
     </Declaration>
     <Declaration>
@@ -1317,6 +1335,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#paint"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rocket"/>
@@ -1479,6 +1500,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Enough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Understand"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rock"/>
@@ -1736,9 +1760,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Glasses"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Afraid_"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mirror"/>
     </Declaration>
     <Declaration>
@@ -1991,6 +2012,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bear"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#fish"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Quarter"/>
     </Declaration>
     <Declaration>
@@ -2006,16 +2030,19 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Whale"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#art"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#House"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Library"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Happy"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Meeting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Meeting"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Happy"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cage"/>
@@ -2025,9 +2052,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#weak"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sweet_"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Head"/>
@@ -2043,9 +2067,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hotel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Favourite"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Taxi"/>
@@ -2339,6 +2360,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cheese"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#fun"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Year"/>
     </Declaration>
     <Declaration>
@@ -2528,10 +2552,10 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Phone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#First"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ugly"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#ugly"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#First"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#July"/>
@@ -2693,6 +2717,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#slow"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Afraid"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Climb"/>
     </Declaration>
     <Declaration>
@@ -2762,6 +2789,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Puppy"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#football"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Early"/>
     </Declaration>
     <Declaration>
@@ -2772,6 +2802,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#farm"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Knife"/>
@@ -2936,6 +2969,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Spell"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
     </Declaration>
     <EquivalentClasses>
@@ -2943,6 +2979,20 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#leave"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Art"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#artist"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Artist"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#art"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -3079,6 +3129,13 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cooker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#cook"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dark"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
@@ -3111,6 +3168,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#clean"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Driver"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#drive"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -3156,6 +3220,13 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Farmer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#farm"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fast"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
@@ -3184,6 +3255,27 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fishing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#fish"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Football"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#footballer"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Footballer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#football"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Forget"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
@@ -3209,6 +3301,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#empty"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Funny"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#fun"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -3394,6 +3493,20 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Painter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#paint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Painting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#paint"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Parent"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
@@ -3454,6 +3567,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#buy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shopping"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#derivationallyRelated"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#shop"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>

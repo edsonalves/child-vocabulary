@@ -7,7 +7,7 @@ Grown-up | noun
 Jeans | noun
 Offline | noun
 Picnick | noun
-Sports centre | noun
+Sports center | noun
 Trousers | noun
 Fun | adjective
 Glass | adjective
@@ -24,9 +24,9 @@ Might | verb
 Must | verb
 Shall | verb
 Should | verb
-Take a Photo (picture) | verb
+Take a Photo | verb
+Take a Picture | verb
 Text | verb
-Undestand | verb
 Video | verb
 Would | verb
 Would Like | verb

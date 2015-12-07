@@ -516,7 +516,7 @@ Supper | noun
 Surname | noun
 Swan | noun
 Sweater | noun
-Sweet  | noun
+Sweet | noun
 Swim | noun
 Swimming pool | noun
 Swing | noun
@@ -608,7 +608,7 @@ Zero | noun
 Zoo | noun
 son | noun
 male child | noun
-Afraid  | adjective
+Afraid | adjective
 All Right | adjective
 Angry | adjective
 Awake | adjective
@@ -659,7 +659,7 @@ Famous | adjective
 Far | adjective
 Fast | adjective
 Fat | adjective
-Favourite | adjective
+Favorite | adjective
 Fine | adjective
 First | adjective
 Foggy | adjective
@@ -888,7 +888,7 @@ Show | verb
 Sing | verb
 Sit | verb
 Skate | verb
-Ski  | verb
+Ski | verb
 Skip | verb
 Sledge | verb
 Sleep | verb
@@ -923,6 +923,7 @@ Try | verb
 Turn | verb
 Turn Off | verb
 Turn On | verb
+Understand | verb
 Use | verb
 Visit | verb
 Wait | verb

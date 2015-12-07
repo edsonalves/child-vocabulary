@@ -177,15 +177,15 @@ public class Main {
 
 
 
-		ontology.createObjectProperties(ObjectPropertyType.IS_SIMILAR_TO, dog, cachorro); //essa propriedade é simétrica?? (fiz no Protégé)
+		ontology.createObjectProperties(Pointer.IS_SIMILAR_TO, dog, cachorro); //essa propriedade é simétrica?? (fiz no Protégé)
 
-		ontology.createObjectProperties(ObjectPropertyType.IS_ANTONYM_OF, gato, rato);
+		ontology.createObjectProperties(Pointer.IS_ANTONYM_OF, gato, rato);
 
-		ontology.createObjectProperties(ObjectPropertyType.HAS_HYPERNYM, kitty, gato);
+		ontology.createObjectProperties(Pointer.HAS_HYPERNYM, kitty, gato);
 
-		ontology.createObjectProperties(ObjectPropertyType.HAS_HYPERNYM, puppy, dog);
+		ontology.createObjectProperties(Pointer.HAS_HYPERNYM, puppy, dog);
 
-		ontology.createObjectProperties(ObjectPropertyType.HAS_HYPONYM, rato, ratito);
+		ontology.createObjectProperties(Pointer.HAS_HYPONYM, rato, ratito);
 
 		//ontology.createAnnotation(dog, "**********Tipo de Anotação**********");
 
