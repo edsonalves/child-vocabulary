@@ -5,17 +5,22 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 import org.semanticweb.owlapi.formats.OWLXMLDocumentFormat;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
+import org.semanticweb.owlapi.model.OWLSubClassOfAxiom;
 
 import br.ufpe.cin.childvocabulary.service.OntologyService;
 import br.ufpe.cin.childvocabulary.service.WordNetService;
 import br.ufpe.cin.childvocabulary.util.ProgressBar;
 import br.ufpe.cin.childvocabulary.util.ReaderFileUtil;
 import edu.mit.jwi.item.IIndexWord;
+import edu.mit.jwi.item.ISynset;
+import edu.mit.jwi.item.ISynsetID;
 import edu.mit.jwi.item.IWord;
 import edu.mit.jwi.item.IWordID;
 import edu.mit.jwi.item.POS;
@@ -64,428 +69,445 @@ public class Application {
 		int countRegion = 0;
 		int countRegionMember = 0;
 		int countTopic = 0;
-	
+		int countSimilarSynset = 0;
+
 		for(String word : wordList){
 			word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
 			IIndexWord indexWord = wordNetService.getDictionary().getIndexWord(word, pos);
 			if (indexWord != null){
 				writerFound.println( word + " | " + pos.toString());
-				IWordID wordID = indexWord.getWordIDs().get(0);
-				IWord wordValue = wordNetService.getDictionary().getWord(wordID);	
-				
-/*				///////////////////////////////////////
-				
-				for(IWordID id: wordValue.getRelatedWords()) {
-				
-				  System.out.println( wordNetService.getDictionary().getWord( id ).getLemma() );
-				
-				}
-				
-				for(Entry<IPointer, List<IWordID>> entry: wordValue.getRelatedMap().entrySet()) {
+
+
+				int qtdSenses = indexWord.getWordIDs().size(); // pega a quantidade de sentidos de uma palavra e varre todas elas
+				for (int i = 0; i < qtdSenses; i++){ 
+					IWordID wordID = indexWord.getWordIDs().get(i);
+					IWord wordValue = wordNetService.getDictionary().getWord(wordID);	
+
+					OWLClass wordClass = null;
+					try {
+						wordClass = ontologyService.createClass(word.replace(" ", "_"));					
+					} catch (OWLOntologyStorageException e) {
+						e.printStackTrace();
+					}
+
+					ontologyService.createAnnotation(wordClass, wordValue.getSynset().getGloss().toString());
+
+
+					// pega os sinônimos dos Synsets
+					ISynset synset = wordValue.getSynset();
 					
-				  System.out.println( entry.getKey() );
-				  System.out.println( entry.getValue() );
-				  
-				}
-				
-				///////////////////////////////////////
-*/
-								
-/*				System.out.println("Lemma: " + wordValue.getLemma());
-				System.out.println("POS: " + wordValue.getPOS());
-				System.out.println("Sense Key: " + wordValue.getSenseKey().toString());
-				System.out.println("RelatedMap: " + wordValue.getRelatedMap().toString());
-				System.out.println("Verb frames: " + wordValue.getVerbFrames());
-				System.out.println("Adjective Marker: " + wordValue.getAdjectiveMarker());
-				System.out.println("-----------------------------------------");*/
-				
-				OWLClass wordClass = null;
-				try {
-					wordClass = ontologyService.createClass(word.replace(" ", "_"));					
-				} catch (OWLOntologyStorageException e) {
-					e.printStackTrace();
-				}
-				
-				ontologyService.createAnnotation(wordClass, wordValue.getSynset().getGloss().toString());
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.SIMILAR_TO)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;	
+					for(IWord w : synset.getWords()){
+						OWLClass wordClassRelatedSynset = null;
+						String lemma = w.getLemma();
+						lemma = lemma.substring(0, 1).toUpperCase() + lemma.substring(1).toLowerCase();
+
+						if(wordList.contains(lemma) && !lemma.equalsIgnoreCase(word)){
 							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								wordClassRelatedSynset = ontologyService.createClass(lemma.replace(" ", "_"));
 							} catch (OWLOntologyStorageException e) {
 								e.printStackTrace();
-							}
-							countSimilar++;
-							ontologyService.createObjectProperties(Pointer.SIMILAR_TO, wordClass, wordClassRelated);
+							}	
+							ontologyService.createObjectProperties(null, wordClass, wordClassRelatedSynset);
+							countSimilarSynset++;
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ANTONYM)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;	
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+				/*	List<ISynsetID> hypernymsList = synset.getRelatedSynsets(Pointer.HYPERNYM);
+					List<IWord> words = null;
+					for (ISynsetID sid : hypernyms){
+						words = wordNetService.getDictionary().getSynset(sid).getWords();
+						for(Iterator<IWord> iterator = words.iterator(); iterator.hasNext();){
+							if(wordList.contains(iterator)){
+								OWLSubClassOfAxiom isSubClassOf = ontologyService.getFactory().getOWLSubClassOfAxiom(class1, class2);
 							}
-							countAntony++;
-							ontologyService.createObjectProperties(Pointer.ANTONYM, wordClass, wordClassRelated);
+						}
+					*/
+					
+					
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.SIMILAR_TO)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;	
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countSimilar++;
+								ontologyService.createObjectProperties(Pointer.SIMILAR_TO, wordClass, wordClassRelated);
+							} 
+						}
+					}				
+
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ANTONYM)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;	
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countAntony++;
+								ontologyService.createObjectProperties(Pointer.ANTONYM, wordClass, wordClassRelated);
+							}
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HYPERNYM)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HYPERNYM)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countHyper++;
+								ontologyService.createObjectProperties(Pointer.HYPERNYM, wordClass, wordClassRelated);							
 							}
-							countHyper++;
-							ontologyService.createObjectProperties(Pointer.HYPERNYM, wordClass, wordClassRelated);							
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HYPONYM)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HYPONYM)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countHypo++;
+								ontologyService.createObjectProperties(Pointer.HYPONYM, wordClass, wordClassRelated);							
 							}
-							countHypo++;
-							ontologyService.createObjectProperties(Pointer.HYPONYM, wordClass, wordClassRelated);							
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ALSO_SEE)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ALSO_SEE)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countAlso++;
+								ontologyService.createObjectProperties(Pointer.ALSO_SEE, wordClass, wordClassRelated);							
 							}
-							countAlso++;
-							ontologyService.createObjectProperties(Pointer.ALSO_SEE, wordClass, wordClassRelated);							
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.CAUSE)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.CAUSE)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countCause++;
+								ontologyService.createObjectProperties(Pointer.CAUSE, wordClass, wordClassRelated);							
 							}
-							countCause++;
-							ontologyService.createObjectProperties(Pointer.CAUSE, wordClass, wordClassRelated);							
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.VERB_GROUP)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.VERB_GROUP)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countVerbGroup++;
+								ontologyService.createObjectProperties(Pointer.VERB_GROUP, wordClass, wordClassRelated);							
 							}
-							countVerbGroup++;
-							ontologyService.createObjectProperties(Pointer.VERB_GROUP, wordClass, wordClassRelated);							
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.DERIVATIONALLY_RELATED)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.DERIVATIONALLY_RELATED)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countDerivational++;
+								ontologyService.createObjectProperties(Pointer.DERIVATIONALLY_RELATED, wordClass, wordClassRelated);
 							}
-							countDerivational++;
-							ontologyService.createObjectProperties(Pointer.DERIVATIONALLY_RELATED, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ATTRIBUTE)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ATTRIBUTE)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countAtributte++;
+								ontologyService.createObjectProperties(Pointer.ATTRIBUTE, wordClass, wordClassRelated);
 							}
-							countAtributte++;
-							ontologyService.createObjectProperties(Pointer.ATTRIBUTE, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ENTAILMENT)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ENTAILMENT)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countEntailment++;
+								ontologyService.createObjectProperties(Pointer.ENTAILMENT, wordClass, wordClassRelated);
 							}
-							countEntailment++;
-							ontologyService.createObjectProperties(Pointer.ENTAILMENT, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.PERTAINYM)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.PERTAINYM)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countPertainym++;
+								ontologyService.createObjectProperties(Pointer.PERTAINYM, wordClass, wordClassRelated);
 							}
-							countPertainym++;
-							ontologyService.createObjectProperties(Pointer.PERTAINYM, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.PARTICIPLE)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.PARTICIPLE)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countParticiple++;
+								ontologyService.createObjectProperties(Pointer.PARTICIPLE, wordClass, wordClassRelated);
 							}
-							countParticiple++;
-							ontologyService.createObjectProperties(Pointer.PARTICIPLE, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.DERIVED_FROM_ADJ)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.DERIVED_FROM_ADJ)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countDerivedAdj++;
+								ontologyService.createObjectProperties(Pointer.DERIVED_FROM_ADJ, wordClass, wordClassRelated);
 							}
-							countDerivedAdj++;
-							ontologyService.createObjectProperties(Pointer.DERIVED_FROM_ADJ, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_MEMBER)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_MEMBER)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countHolonymMember++;
+								ontologyService.createObjectProperties(Pointer.HOLONYM_MEMBER, wordClass, wordClassRelated);
 							}
-							countHolonymMember++;
-							ontologyService.createObjectProperties(Pointer.HOLONYM_MEMBER, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_PART)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_PART)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countHolonymPart++;
+								ontologyService.createObjectProperties(Pointer.HOLONYM_PART, wordClass, wordClassRelated);
 							}
-							countHolonymPart++;
-							ontologyService.createObjectProperties(Pointer.HOLONYM_PART, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_SUBSTANCE)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_SUBSTANCE)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countHolonymSubst++;
+								ontologyService.createObjectProperties(Pointer.HOLONYM_SUBSTANCE, wordClass, wordClassRelated);
 							}
-							countHolonymSubst++;
-							ontologyService.createObjectProperties(Pointer.HOLONYM_SUBSTANCE, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_MEMBER)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_MEMBER)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countMeronymMember++;
+								ontologyService.createObjectProperties(Pointer.MERONYM_MEMBER, wordClass, wordClassRelated);
 							}
-							countMeronymMember++;
-							ontologyService.createObjectProperties(Pointer.MERONYM_MEMBER, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_PART)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_PART)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countMeronymPart++;
+								ontologyService.createObjectProperties(Pointer.MERONYM_PART, wordClass, wordClassRelated);
 							}
-							countMeronymPart++;
-							ontologyService.createObjectProperties(Pointer.MERONYM_PART, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_SUBSTANCE)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_SUBSTANCE)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countMeronymSubst++;
+								ontologyService.createObjectProperties(Pointer.MERONYM_SUBSTANCE, wordClass, wordClassRelated);
 							}
-							countMeronymSubst++;
-							ontologyService.createObjectProperties(Pointer.MERONYM_SUBSTANCE, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.REGION)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.REGION)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countRegion++;
+								ontologyService.createObjectProperties(Pointer.REGION, wordClass, wordClassRelated);
 							}
-							countRegion++;
-							ontologyService.createObjectProperties(Pointer.REGION, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.REGION_MEMBER)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.REGION_MEMBER)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countRegionMember++;
+								ontologyService.createObjectProperties(Pointer.REGION_MEMBER, wordClass, wordClassRelated);
 							}
-							countRegionMember++;
-							ontologyService.createObjectProperties(Pointer.REGION_MEMBER, wordClass, wordClassRelated);
 						}
 					}
-				}
-				
-				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.TOPIC)){
-					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
-					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
-					for(String wordAux : wordList ){
-						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
-							try {
-								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
-							} catch (OWLOntologyStorageException e) {
-								e.printStackTrace();
+
+					for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.TOPIC)){
+						String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+						relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
+						for(String wordAux : wordList ){
+							if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
+								OWLClass wordClassRelated = null;
+								try {
+									wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
+								} catch (OWLOntologyStorageException e) {
+									e.printStackTrace();
+								}
+								countTopic++;
+								ontologyService.createObjectProperties(Pointer.TOPIC, wordClass, wordClassRelated);
 							}
-							countTopic++;
-							ontologyService.createObjectProperties(Pointer.TOPIC, wordClass, wordClassRelated);
 						}
 					}
-				}
 				
+				
+				
+				}
 			}else{
 				writerNotFound.println( word + " | " + pos.toString());
 			}	
 		}
+
+		System.out.println("SIMILAR_SYNSET: "+ countSimilarSynset);
 		System.out.println("IS_SIMILAR_TO: "+ countSimilar);
 		System.out.println("IS_ANTONYM_OF: "+ countAntony);
 		System.out.println("HAS_HYPERNYM: "+ countHyper);
@@ -509,8 +531,8 @@ public class Application {
 		System.out.println("REGION MEMBER: "+ countRegionMember);
 		System.out.println("TOPIC: "+ countTopic);
 		System.out.println("------------------------------------");
-		
-		
+
+
 	}
 
 	public static void start() {
@@ -547,6 +569,8 @@ public class Application {
 			e.printStackTrace();
 		}
 		System.out.println("Ontologia salva.");
+		
+		System.out.println("Quantidade de Axiomas: " + ontologyService.getOntology().getAxiomCount());
 
 		writerFound.close();
 		writerNotFound.close();
