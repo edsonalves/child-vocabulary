@@ -82,8 +82,8 @@ Carrot | noun
 Castle | noun
 Cat | noun
 Cave | noun
-CD | noun
-CD player | noun
+Cd | noun
+Cd player | noun
 Century | noun
 Chair | noun
 Cheese | noun
@@ -565,7 +565,7 @@ Truck | noun
 Try | noun
 T-shirt | noun
 Tuesday | noun
-TV | noun
+Tv | noun
 Umbrella | noun
 Uncle | noun
 Uniform | noun
@@ -606,10 +606,10 @@ Year | noun
 Yesterday | noun
 Zero | noun
 Zoo | noun
-son | noun
-male child | noun
+Son | noun
+Male child | noun
 Afraid | adjective
-All Right | adjective
+All right | adjective
 Angry | adjective
 Awake | adjective
 Back | adjective
@@ -758,7 +758,7 @@ Worst | adjective
 Wrong | adjective
 Yellow | adjective
 Young | adjective
-beautiful | adjective
+Beautiful | adjective
 Add | verb
 Agree | verb
 Answer | verb
@@ -800,32 +800,32 @@ Email | verb
 End | verb
 Explain | verb
 Fall | verb
-Fall Over | verb
+Fall over | verb
 Feel | verb
 Fetch | verb
 Film | verb
 Find | verb
-Find Out | verb
+Find out | verb
 Finish | verb
 Fish | verb
 Fly | verb
 Follow | verb
 Forget | verb
 Get | verb
-Get Dressed | verb
-Get Off | verb
-Get On | verb
-Get To | verb
-Get Up | verb
+Get dressed | verb
+Get off | verb
+Get on | verb
+Get to | verb
+Get up | verb
 Give | verb
 Glue | verb
 Go | verb
-Go Out | verb
+Go out | verb
 Grow | verb
 Guess | verb
 Happen | verb
 Hate | verb
-Have Got | verb
+Have got | verb
 Hear | verb
 Help | verb
 Hide | verb
@@ -845,9 +845,9 @@ Lie | verb
 Listen | verb
 Live | verb
 Look | verb
-Look After | verb
-Look For | verb
-Look Like | verb
+Look after | verb
+Look for | verb
+Look like | verb
 Lose | verb
 Love | verb
 Make | verb
@@ -860,7 +860,7 @@ Need | verb
 Open | verb
 Paint | verb
 Phone | verb
-Pick Up | verb
+Pick up | verb
 Plant | verb
 Play | verb
 Point | verb
@@ -869,7 +869,7 @@ Prefer | verb
 Pull | verb
 Push | verb
 Put | verb
-Put On | verb
+Put on | verb
 Race | verb
 Rain | verb
 Read | verb
@@ -908,7 +908,7 @@ Study | verb
 Swim | verb
 Swing | verb
 Take | verb
-Take Off | verb
+Take off | verb
 Talk | verb
 Taste | verb
 Teach | verb
@@ -921,13 +921,13 @@ Tick | verb
 Tidy | verb
 Try | verb
 Turn | verb
-Turn Off | verb
-Turn On | verb
+Turn off | verb
+Turn on | verb
 Understand | verb
 Use | verb
 Visit | verb
 Wait | verb
-Wake Up | verb
+Wake up | verb
 Walk | verb
 Want | verb
 Wash | verb

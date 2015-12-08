@@ -10,6 +10,7 @@ import org.semanticweb.owlapi.formats.OWLXMLDocumentFormat;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
+
 import br.ufpe.cin.childvocabulary.service.OntologyService;
 import br.ufpe.cin.childvocabulary.service.WordNetService;
 import br.ufpe.cin.childvocabulary.util.ProgressBar;
@@ -20,15 +21,15 @@ import edu.mit.jwi.item.IWordID;
 import edu.mit.jwi.item.POS;
 import edu.mit.jwi.item.Pointer;
 
-
 public class Application {
 	static WordNetService wordNetService = null;
 	static OntologyService ontologyService = null;
 	static ProgressBar progressBar = null;
 	static PrintWriter writerFound = null;
 	static PrintWriter writerNotFound = null;
+	static PrintWriter writerContentFound = null;
 
-	public static void init(){
+	public static void init() {
 		wordNetService = new WordNetService();
 		ontologyService = new OntologyService();
 		progressBar = new ProgressBar();
@@ -65,26 +66,54 @@ public class Application {
 		int countTopic = 0;
 	
 		for(String word : wordList){
+			word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
 			IIndexWord indexWord = wordNetService.getDictionary().getIndexWord(word, pos);
 			if (indexWord != null){
 				writerFound.println( word + " | " + pos.toString());
 				IWordID wordID = indexWord.getWordIDs().get(0);
-				IWord wordValue = wordNetService.getDictionary().getWord(wordID);
-
+				IWord wordValue = wordNetService.getDictionary().getWord(wordID);	
+				
+/*				///////////////////////////////////////
+				
+				for(IWordID id: wordValue.getRelatedWords()) {
+				
+				  System.out.println( wordNetService.getDictionary().getWord( id ).getLemma() );
+				
+				}
+				
+				for(Entry<IPointer, List<IWordID>> entry: wordValue.getRelatedMap().entrySet()) {
+					
+				  System.out.println( entry.getKey() );
+				  System.out.println( entry.getValue() );
+				  
+				}
+				
+				///////////////////////////////////////
+*/
+								
+/*				System.out.println("Lemma: " + wordValue.getLemma());
+				System.out.println("POS: " + wordValue.getPOS());
+				System.out.println("Sense Key: " + wordValue.getSenseKey().toString());
+				System.out.println("RelatedMap: " + wordValue.getRelatedMap().toString());
+				System.out.println("Verb frames: " + wordValue.getVerbFrames());
+				System.out.println("Adjective Marker: " + wordValue.getAdjectiveMarker());
+				System.out.println("-----------------------------------------");*/
+				
 				OWLClass wordClass = null;
 				try {
-					wordClass = ontologyService.createClass(word.replace(" ", "_"));
+					wordClass = ontologyService.createClass(word.replace(" ", "_"));					
 				} catch (OWLOntologyStorageException e) {
 					e.printStackTrace();
 				}
 				
+				ontologyService.createAnnotation(wordClass, wordValue.getSynset().getGloss().toString());
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.SIMILAR_TO)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
-						
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
+							OWLClass wordClassRelated = null;	
 							try {
 								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
 							} catch (OWLOntologyStorageException e) {
@@ -98,9 +127,10 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ANTONYM)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
-							OWLClass wordClassRelated = null;
+							OWLClass wordClassRelated = null;	
 							try {
 								wordClassRelated = ontologyService.createClass(relatedLema.replace(" ", "_"));
 							} catch (OWLOntologyStorageException e) {
@@ -114,6 +144,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HYPERNYM)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -130,6 +161,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HYPONYM)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -146,6 +178,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ALSO_SEE)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -162,6 +195,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.CAUSE)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -178,6 +212,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.VERB_GROUP)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -194,6 +229,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.DERIVATIONALLY_RELATED)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -210,6 +246,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ATTRIBUTE)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -226,6 +263,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.ENTAILMENT)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -242,6 +280,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.PERTAINYM)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -258,6 +297,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.PARTICIPLE)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -274,6 +314,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.DERIVED_FROM_ADJ)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -290,6 +331,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_MEMBER)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -306,6 +348,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_PART)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -322,6 +365,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.HOLONYM_SUBSTANCE)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -338,6 +382,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_MEMBER)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -354,6 +399,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_PART)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -370,6 +416,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.MERONYM_SUBSTANCE)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -386,6 +433,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.REGION)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -402,6 +450,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.REGION_MEMBER)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -418,6 +467,7 @@ public class Application {
 				
 				for (IWordID relatedWords : wordValue.getRelatedWords(Pointer.TOPIC)){
 					String relatedLema = wordNetService.getDictionary().getWord(relatedWords).getLemma();
+					relatedLema = relatedLema.substring(0, 1).toUpperCase() + relatedLema.substring(1).toLowerCase();
 					for(String wordAux : wordList ){
 						if(wordAux.equalsIgnoreCase(relatedLema) &&  !wordAux.equalsIgnoreCase(word)){
 							OWLClass wordClassRelated = null;
@@ -462,47 +512,50 @@ public class Application {
 		
 		
 	}
-	
-	public static void start(){
-		//Ler Substantivos
-		ReaderFileUtil listaSubstantivo = new ReaderFileUtil("src/main/resources/input/PalavrasFrequentesSubstantivos.txt");
+
+	public static void start() {
+		// Ler Substantivos
+		ReaderFileUtil listaSubstantivo = new ReaderFileUtil(
+				"src/main/resources/input/PalavrasFrequentesSubstantivos.txt");
 		int countSubstantivos = listaSubstantivo.getWordList().size();
-		System.out.println("Substantivo iniciado ... - "+ countSubstantivos);
+		System.out.println("Substantivo iniciado ... - " + countSubstantivos);
 		buildClassesAndProperties(listaSubstantivo.getWordList(), POS.NOUN);
 		System.out.println("Substantivo finalizado.");
-		
-		//Ler Adjetivos
+
+		// Ler Adjetivos
 		ReaderFileUtil listaAdjetivos = new ReaderFileUtil("src/main/resources/input/PalavrasFrequentesAdjetivos.txt");
 		int countAdjetivos = listaAdjetivos.getWordList().size();
-		System.out.println("Adjetivo iniciado ... - "+ countAdjetivos);
+		System.out.println("Adjetivo iniciado ... - " + countAdjetivos);
 		buildClassesAndProperties(listaAdjetivos.getWordList(), POS.ADJECTIVE);
 		System.out.println("Adjetivo finalizado.");
 
-		//Ler Verbos
+		// Ler Verbos
 		ReaderFileUtil listaVerbos = new ReaderFileUtil("src/main/resources/input/PalavrasFrequentesVerbos.txt");
 		int countVerbos = listaVerbos.getWordList().size();
-		System.out.println("Verbo iniciado ... - "+ countVerbos);
+		System.out.println("Verbo iniciado ... - " + countVerbos);
 		buildClassesAndProperties(listaVerbos.getWordList(), POS.VERB);
 		System.out.println("Verbo finalizado.");
-		
-		//Salva Ontologia
+
+		// Salva Ontologia
 		System.out.println("Salvando ontologia ...");
 		File output = new File("src/main/resources/output/output.owl");
 		OWLXMLDocumentFormat owlxmlFormat = new OWLXMLDocumentFormat();
 		try {
-			ontologyService.getManager().saveOntology(ontologyService.getOntology(), owlxmlFormat, IRI.create(output.toURI()));
+			ontologyService.getManager().saveOntology(ontologyService.getOntology(), owlxmlFormat,
+					IRI.create(output.toURI()));
 		} catch (OWLOntologyStorageException e) {
 			e.printStackTrace();
 		}
 		System.out.println("Ontologia salva.");
-		
+
 		writerFound.close();
 		writerNotFound.close();
 	}
-	
-	public static void finish(){
-		
+
+	public static void finish() {
+
 	}
+
 	public static void main(String[] args) {
 		init();
 		start();
