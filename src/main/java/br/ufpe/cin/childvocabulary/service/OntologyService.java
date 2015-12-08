@@ -1,20 +1,16 @@
 package br.ufpe.cin.childvocabulary.service;
 
 import java.io.File;
-import java.util.Iterator;
-import java.util.List;
 
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.AddAxiom;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLAnnotation;
-
 import org.semanticweb.owlapi.model.OWLAxiom;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLDataFactory;
 import org.semanticweb.owlapi.model.OWLEquivalentClassesAxiom;
 import org.semanticweb.owlapi.model.OWLObjectProperty;
-
 import org.semanticweb.owlapi.model.OWLObjectSomeValuesFrom;
 import org.semanticweb.owlapi.model.OWLOntology;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
@@ -22,12 +18,8 @@ import org.semanticweb.owlapi.model.OWLOntologyManager;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 import org.semanticweb.owlapi.model.OWLSubClassOfAxiom;
 
-import edu.mit.jwi.item.ISynset;
-import edu.mit.jwi.item.ISynsetID;
-import edu.mit.jwi.item.IWord;
-import edu.mit.jwi.item.Pointer;
-import edu.mit.jwi.item.Synset;
 import br.ufpe.cin.childvocabulary.util.PropertiesUtil;
+import edu.mit.jwi.item.Pointer;
 
 public class OntologyService {
 	private OWLOntology ontology;
@@ -61,46 +53,17 @@ public class OntologyService {
 		return factory;
 	}
 
-	
 	public void createAnnotation(OWLClass classe, String annotation){
 		
-		
-		
 		OWLAnnotation commentAnno = factory.getOWLAnnotation(factory.getRDFSComment(), factory.getOWLLiteral(annotation, "en"));
-		
 		OWLAxiom ax = factory.getOWLAnnotationAssertionAxiom(classe.getIRI(), commentAnno);
-		
-		manager.applyChange(new AddAxiom(ontology, ax));
-		
-		
-	
+		manager.applyChange(new AddAxiom(ontology, ax));	
 	}
-	
-	
-	public void createHierarchy(OWLClass class1, OWLClass class2, List<ISynsetID> hypernyms, Synset synset){
-		///////////////////
-		
-		
-	/*	List<ISynsetID> hypernymsList = synset.getRelatedSynsets(Pointer.HYPERNYM);
-		List<IWord> words = null;
-		for (ISynsetID sid : hypernyms){
-			words = wordNetService.getDictionary().getSynset(sid).getWords();
-			for(Iterator<IWord> iterator = words.iterator(); iterator.hasNext();){
-				if(wordList.contains(iterator)){
-					OWLSubClassOfAxiom isSubClassOf = ontologyService.factory.getOWLSubClassOfAxiom(class1, class2);
-				}
-			}
-		}*/
-		
-		
-		
-	}
-	
 	
 	public void createObjectProperties(Pointer pointer, OWLClass class1, OWLClass class2){		
 
 		if (pointer == null){
-			OWLObjectProperty isSimilarTo = factory.getOWLObjectProperty(IRI.create(PropertiesUtil.getOntologyIri()+"#mesmoSynset"));
+			OWLObjectProperty isSimilarTo = factory.getOWLObjectProperty(IRI.create(PropertiesUtil.getOntologyIri()+"#sameSynset"));
 			OWLObjectSomeValuesFrom ligacao = factory.getOWLObjectSomeValuesFrom(isSimilarTo, class2);			
 			OWLEquivalentClassesAxiom equivalentClassSimilar = factory.getOWLEquivalentClassesAxiom(class1, ligacao);
 			manager.addAxiom(ontology, equivalentClassSimilar);
