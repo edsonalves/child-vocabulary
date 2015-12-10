@@ -39,16 +39,12 @@ public class WordNetService {
 		}
 	}
 
-
-	public IDictionary getDictionary() {
-		return dictionary;
+	public IIndexWord getIndexWord(String word, POS pos){
+		word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
+		IIndexWord indexWord = this.getDictionary().getIndexWord(word, pos);
+		return indexWord;
 	}
-
-	public void setDictionary(IDictionary dictionary) {
-		this.dictionary = dictionary;
-	}
-
-
+	
 	public ISynset getISynset(String word, POS pos){
 		IIndexWord indexWord = null;
 		indexWord = dictionary.getIndexWord(word, pos);
@@ -124,5 +120,11 @@ public class WordNetService {
 
 	}
 
+	public IDictionary getDictionary() {
+		return dictionary;
+	}
 
+	public void setDictionary(IDictionary dictionary) {
+		this.dictionary = dictionary;
+	}
 }

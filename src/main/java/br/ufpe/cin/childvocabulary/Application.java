@@ -73,28 +73,28 @@ public class Application {
 		int countSimilarSynset = 0;
 
 		for(String word : wordList){
-			word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
-			IIndexWord indexWord = wordNetService.getDictionary().getIndexWord(word, pos);
+
+			IIndexWord indexWord = wordNetService.getIndexWord(word, pos);
+
 			if (indexWord != null){
 				writerFound.println( word + " | " + pos.toString());
 
-
-				int qtdSenses = indexWord.getWordIDs().size(); // pega a quantidade de sentidos de uma palavra e varre todas elas
+				// Quantidade de sentidos de uma palavra
+				int qtdSenses = indexWord.getWordIDs().size(); 
 				for (int i = 0; i < qtdSenses; i++){ 
 					IWordID wordID = indexWord.getWordIDs().get(i);
 					IWord wordValue = wordNetService.getDictionary().getWord(wordID);	
 
 					OWLClass wordClass = null;
 					try {
-						wordClass = ontologyService.createClass(word.replace(" ", "_"));					
+						wordClass = ontologyService.createClass(word);					
 					} catch (OWLOntologyStorageException e) {
 						e.printStackTrace();
 					}
 
 					ontologyService.createAnnotation(wordClass, wordValue.getSynset().getGloss().toString());
 
-
-					// pega os sinônimos dos Synsets
+					// sinônimos dos Synsets
 					ISynset synset = wordValue.getSynset();
 
 					for(IWord w : synset.getWords()){
@@ -104,7 +104,7 @@ public class Application {
 
 						if(wordList.contains(lemma) && !lemma.equalsIgnoreCase(word)){
 							try {
-								wordClassRelatedSynset = ontologyService.createClass(lemma.replace(" ", "_"));
+								wordClassRelatedSynset = ontologyService.createClass(lemma);
 							} catch (OWLOntologyStorageException e) {
 								e.printStackTrace();
 							}	
@@ -118,13 +118,13 @@ public class Application {
 					for (ISynsetID sid : hypernymsList){
 						words = wordNetService.getDictionary().getSynset(sid).getWords();
 						for(Iterator<IWord> iter = words.iterator(); iter.hasNext();){
-					
-							
+
+
 							OWLClass wordClassHyperClass = null;
 							String palavra = iter.next().getLemma();
 							palavra = palavra.substring(0, 1).toUpperCase() + palavra.substring(1).toLowerCase();
-							
-									
+
+
 							if(wordList.contains(palavra)){
 								try {
 									wordClassHyperClass = ontologyService.createClass(palavra.replace(" ", "_"));
@@ -585,22 +585,16 @@ public class Application {
 		}
 		System.out.println("Ontologia salva.");
 
-		
-		
-		
 		System.out.println("Quantidade de Axiomas: " + ontologyService.getOntology().getAxiomCount());
-		
+
 		System.out.println("...: " + ontologyService.getOntology().getAxiomCount(AxiomType.CLASS_ASSERTION));
 		System.out.println(".EQUIVALENT CLASS.: " + ontologyService.getOntology().getAxiomCount(AxiomType.EQUIVALENT_CLASSES));
 		System.out.println(".SUM CLASS OF.: " + ontologyService.getOntology().getAxiomCount(AxiomType.SUBCLASS_OF));
 		System.out.println(".DECLARATION.: " + ontologyService.getOntology().getAxiomCount(AxiomType.DECLARATION));
-		
-		
+
+
 		System.out.println("Quantidade de Axiomas Logicos: " + ontologyService.getOntology().getLogicalAxiomCount());
 
-		
-		
-		
 		writerFound.close();
 		writerNotFound.close();
 	}

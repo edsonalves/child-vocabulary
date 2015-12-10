@@ -43,6 +43,7 @@ public class OntologyService {
 	}
 
 	public OWLClass createClass(String word) throws OWLOntologyStorageException{
+		word = word.replace(" ", "_");
 		OWLClass c = factory.getOWLClass(IRI.create(ontologyIRI + "#" + word));
 		OWLAxiom declareC = factory.getOWLDeclarationAxiom(c);
 		manager.addAxiom(ontology, declareC);
@@ -54,7 +55,6 @@ public class OntologyService {
 	}
 
 	public void createAnnotation(OWLClass classe, String annotation){
-		
 		OWLAnnotation commentAnno = factory.getOWLAnnotation(factory.getRDFSComment(), factory.getOWLLiteral(annotation, "en"));
 		OWLAxiom ax = factory.getOWLAnnotationAssertionAxiom(classe.getIRI(), commentAnno);
 		manager.applyChange(new AddAxiom(ontology, ax));	
@@ -114,7 +114,7 @@ public class OntologyService {
 			manager.addAxiom(ontology, equivalentClassDerivationallyRelated);
 
 		} else if (pointer == Pointer.ATTRIBUTE){
-			OWLObjectProperty attibute = factory.getOWLObjectProperty(IRI.create(PropertiesUtil.getOntologyIri()+"#attibute"));
+			OWLObjectProperty attibute = factory.getOWLObjectProperty(IRI.create(PropertiesUtil.getOntologyIri()+"#attribute"));
 			OWLObjectSomeValuesFrom ligacao = factory.getOWLObjectSomeValuesFrom(attibute, class2);
 			OWLEquivalentClassesAxiom equivalentClassAttibute = factory.getOWLEquivalentClassesAxiom(class1, ligacao);
 			manager.addAxiom(ontology, equivalentClassAttibute);

@@ -50,6 +50,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pea"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_Out"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Soft"/>
     </Declaration>
     <Declaration>
@@ -185,10 +188,13 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Restaurant"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Throw"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Catch"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Throw"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#beautiful"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Choose"/>
@@ -287,6 +293,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Policeman"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#son"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Conversation"/>
     </Declaration>
     <Declaration>
@@ -336,9 +345,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Dangerous"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fall_over"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Say"/>
@@ -416,9 +422,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bus_station"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Male_child"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Sorry"/>
     </Declaration>
     <Declaration>
@@ -464,6 +467,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Horrible"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Well"/>
     </Declaration>
     <Declaration>
@@ -500,6 +506,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chair"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#TV"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grandma"/>
     </Declaration>
     <Declaration>
@@ -522,6 +531,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Shorts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_After"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Secretary"/>
@@ -573,6 +585,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Swimming_pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_Off"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Gray"/>
@@ -647,6 +662,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fun"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Off"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Know"/>
     </Declaration>
     <Declaration>
@@ -657,9 +675,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Playground"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cd_player"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Rucksack"/>
@@ -678,6 +693,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Toy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_On"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Loud"/>
@@ -791,9 +809,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hold"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_off"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stand"/>
     </Declaration>
     <Declaration>
@@ -899,13 +914,13 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Father"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_on"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ambulance"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Draw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Have_Got"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wish"/>
@@ -942,9 +957,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Broken"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_up"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pet"/>
@@ -1004,6 +1016,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Train"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_On"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Gold"/>
     </Declaration>
     <Declaration>
@@ -1049,10 +1064,10 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chocolate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Add"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Add"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_For"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Thank"/>
@@ -1065,6 +1080,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Future"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fall_Over"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Zoo"/>
@@ -1095,9 +1113,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fog"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cd"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Double"/>
@@ -1172,6 +1187,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#CD_player"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Space"/>
     </Declaration>
     <Declaration>
@@ -1202,9 +1220,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tomato"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_on"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Lion"/>
     </Declaration>
     <Declaration>
@@ -1221,6 +1236,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hungry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_On"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Prefer"/>
@@ -1274,6 +1292,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wife"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#All_Right"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Worse"/>
     </Declaration>
     <Declaration>
@@ -1301,6 +1322,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#North"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Dressed"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mean"/>
     </Declaration>
     <Declaration>
@@ -1308,9 +1332,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Enough"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_off"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Understand"/>
@@ -1403,9 +1424,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fish"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hard"/>
     </Declaration>
     <Declaration>
@@ -1451,6 +1469,9 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Road"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Towel"/>
     </Declaration>
     <Declaration>
@@ -1461,6 +1482,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hockey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_Like"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#London"/>
@@ -1550,9 +1574,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Glasses"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_dressed"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mirror"/>
     </Declaration>
     <Declaration>
@@ -1626,6 +1647,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Noisy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Up"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Today"/>
@@ -1709,9 +1733,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Driver"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tv"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Midnight"/>
     </Declaration>
     <Declaration>
@@ -1731,9 +1752,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Soap"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#All_right"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mango"/>
@@ -1838,9 +1856,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Better"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_out"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Half"/>
     </Declaration>
     <Declaration>
@@ -1866,9 +1881,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Bookcase"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_out"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Meat"/>
@@ -2093,9 +2105,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Time"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_off"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Map"/>
     </Declaration>
     <Declaration>
@@ -2106,9 +2115,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Circus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_after"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Boat"/>
@@ -2130,9 +2136,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Toothbrush"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Have_got"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Give"/>
@@ -2246,7 +2249,7 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Interesting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_to"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wake_Up"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Mat"/>
@@ -2265,6 +2268,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#male_child"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Money"/>
@@ -2294,7 +2300,7 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pilot"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wake_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_To"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Good"/>
@@ -2310,6 +2316,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Laugh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_Off"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hippo"/>
@@ -2399,9 +2408,6 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Missing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_for"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cross"/>
     </Declaration>
     <Declaration>
@@ -2445,9 +2451,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Last"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_like"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cupboard"/>
@@ -2517,6 +2520,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Banana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#CD"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Headache"/>
@@ -2670,7 +2676,7 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#All_right"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#All_Right"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fine"/>
@@ -3867,35 +3873,35 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_Out"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_Out"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hear"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_Out"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Learn"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_Out"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#See"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_Out"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Watch"/>
@@ -4140,14 +4146,14 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Off"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Send"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_to"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_To"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Make"/>
@@ -4287,14 +4293,14 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Leave"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#See"/>
@@ -4434,7 +4440,7 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Have_got"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Have_Got"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hold"/>
@@ -5050,13 +5056,6 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Male_child"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
-            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Boy"/>
-        </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Matter"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
@@ -5323,28 +5322,28 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Catch"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Hear"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Learn"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#See"/>
@@ -5540,7 +5539,7 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_On"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wear"/>
@@ -6352,6 +6351,20 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#TV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Television"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#TV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Video"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Table"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
@@ -6471,7 +6484,7 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_Off"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Start"/>
@@ -6688,24 +6701,10 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_On"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ride"/>
-        </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tv"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
-            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Television"/>
-        </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Tv"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
-            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Video"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -6993,6 +6992,34 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
             <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#New"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#male_child"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Boy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#son"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#isAntonymOf"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Daughter"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#son"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Boy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#son"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://cin.ufpe.br/nmf/childVocabulary#sameSynset"/>
+            <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Word"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <SubClassOf>
@@ -7368,6 +7395,10 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#CD"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Call"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Ask"/>
     </SubClassOf>
@@ -7538,10 +7569,6 @@
     <SubClassOf>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Catch"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Watch"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cd"/>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Metal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Chair"/>
@@ -8252,7 +8279,7 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#See"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find_Out"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Find"/>
     </SubClassOf>
     <SubClassOf>
@@ -8540,51 +8567,51 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Understand"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Fall"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Leave"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Love"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Send"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_On"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Move"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_to"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_To"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Begin"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_to"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_To"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_to"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_To"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Start"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Grow"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Move"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Study"/>
     </SubClassOf>
     <SubClassOf>
@@ -8688,23 +8715,23 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#End"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Finish"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Leave"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Move"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_out"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go_Out"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Stop"/>
     </SubClassOf>
     <SubClassOf>
@@ -9132,15 +9159,15 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#See"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_after"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_After"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Watch"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_for"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_For"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_for"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Look_For"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wait"/>
     </SubClassOf>
     <SubClassOf>
@@ -9488,19 +9515,19 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Artist"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Buy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Eat"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Get"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Pick_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Meet"/>
     </SubClassOf>
     <SubClassOf>
@@ -9752,19 +9779,19 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Use"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_On"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Add"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_On"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Cook"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_On"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Make"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Put_On"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn"/>
     </SubClassOf>
     <SubClassOf>
@@ -10552,19 +10579,19 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Work"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Go"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Leave"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Start"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Take"/>
     </SubClassOf>
     <SubClassOf>
@@ -10832,15 +10859,15 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Throw"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_off"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_Off"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_on"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn_On"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Throw"/>
     </SubClassOf>
     <SubClassOf>
@@ -10896,7 +10923,7 @@
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wake_up"/>
+        <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Wake_Up"/>
         <Class IRI="http://cin.ufpe.br/nmf/childVocabulary#Turn"/>
     </SubClassOf>
     <SubClassOf>
@@ -11357,7 +11384,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#All_right</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#All_Right</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">being satisfactory or in satisfactory condition; &quot;an all-right movie&quot;; &quot;the passengers were shaken up but are all right&quot;; &quot;is everything all right?&quot;; &quot;everything&apos;s fine&quot;; &quot;things are okay&quot;; &quot;dinner and the movies had been fine&quot;; &quot;another minute I&apos;d have been fine&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -13787,6 +13814,31 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#CD</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a debt instrument issued by a bank; usually pays interest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#CD</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a digitally encoded recording on an optical disk that is smaller than a phonograph record; played back by a laser</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#CD</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a soft bluish-white ductile malleable toxic bivalent metallic element; occurs in association with zinc ores</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#CD</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the basic unit of luminous intensity adopted under the Systeme International d&apos;Unites; equal to 1/60 of the luminous intensity per square centimeter of a black body radiating at the temperature of 2,046 degrees Kelvin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#CD_player</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a stand-alone piece of electronic equipment that either has its own display or attaches to a television set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://cin.ufpe.br/nmf/childVocabulary#Cage</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">United States composer of avant-garde music (1912-1992)</Literal>
     </AnnotationAssertion>
@@ -14544,31 +14596,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://cin.ufpe.br/nmf/childVocabulary#Cave</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a geological formation consisting of an underground enclosure with access from the surface of the ground or from the sea</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Cd</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a debt instrument issued by a bank; usually pays interest</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Cd</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a digitally encoded recording on an optical disk that is smaller than a phonograph record; played back by a laser</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Cd</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a soft bluish-white ductile malleable toxic bivalent metallic element; occurs in association with zinc ores</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Cd</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the basic unit of luminous intensity adopted under the Systeme International d&apos;Unites; equal to 1/60 of the luminous intensity per square centimeter of a black body radiating at the temperature of 2,046 degrees Kelvin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Cd_player</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a stand-alone piece of electronic equipment that either has its own display or attaches to a television set</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -18222,7 +18249,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Fall_over</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Fall_Over</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fall forward and down; &quot;The old woman went over without a sound&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -18737,22 +18764,22 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Find_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Find_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">establish after a calculation, investigation, experiment, survey, or study; &quot;find the product of two numbers&quot;; &quot;The physicist who found the elusive particle won the Nobel Prize&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Find_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Find_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">find out, learn, or determine with certainty, usually by making an inquiry or other effort; &quot;I want to see whether she speaks French&quot;; &quot;See whether it works&quot;; &quot;find out if he speaks Russian&quot;; &quot;Check whether the train leaves on time&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Find_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Find_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get to know or become aware of, usually accidentally; &quot;I learned that she has two grown-up children&quot;; &quot;I see that you have been promoted&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Find_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Find_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">trap; especially in an error or in a reprehensible act; &quot;He was caught out&quot;; &quot;She was found out when she tried to cash the stolen checks&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -19992,152 +20019,152 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_dressed</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Dressed</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">put on clothes; &quot;we had to dress quickly&quot;; &quot;dress the patient&quot;; &quot;Can the child dress by herself?&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alight from (a horse)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">be relieved of one&apos;s duties temporarily</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cause to be acquitted; get off the hook; in a legal case; &quot;The lawyer got him off, even though there was no doubt in everybody&apos;s mind that he killed his wife&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">deliver verbally; &quot;He got off the best line I&apos;ve heard in a long time&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">enjoy in a sexual way; &quot;He gets off on shoes&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">escape potentially unpleasant consequences; get away with a forbidden action; &quot;She gets away with murder!&quot;; &quot;I couldn&apos;t get out from under these responsibilities&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get high, stoned, or drugged; &quot;He trips every weekend&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get out of quickly; &quot;The officer hopped out when he spotted an illegally parked car&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">leave a vehicle, aircraft, etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">send via the postal service; &quot;I&apos;ll mail you the check tomorrow&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">transfer; &quot;The spy sent the classified information off to Russia&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">appear in a show, on T.V. or radio; &quot;The news won&apos;t be on tonight&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">develop in a positive way; &quot;He progressed well in school&quot;; &quot;My plants are coming along&quot;; &quot;Plans are shaping up&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get on board of (trains, buses, ships, aircraft, etc.)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get up on the back of; &quot;mount a horse&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grow late or (of time) elapse; &quot;It is getting on midnight--let&apos;s all go to bed!&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grow old or older; &quot;She aged gracefully&quot;; &quot;we age every day--what a depressing thought!&quot;; &quot;Young men senesce&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">have smooth relations; &quot;My boss and I get along very well&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_to</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_To</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">arrive at the point of; &quot;She gets to fretting if I stay away from home too long&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_to</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_To</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cause annoyance in; disturb, especially by minor irritations; &quot;Mosquitoes buzzing in my ear really bothers me&quot;; &quot;It irritates me that she never closes the door after she leaves&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_to</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_To</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reach a goal, e.g., &quot;make the first team&quot;; &quot;We made it!&quot;; &quot;She may not make the grade&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">arrange by systematic planning and united effort; &quot;machinate a plot&quot;; &quot;organize a strike&quot;; &quot;devise a plan to take over the director&apos;s office&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cause to rise; &quot;The sergeant got us up at 2 A.M.&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">develop; &quot;we worked up an as of an appetite&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get up and out of bed; &quot;I get up at 7 A.M. every day&quot;; &quot;They rose early&quot;; &quot;He uprose at night&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">put on special clothes to appear particularly appealing and attractive; &quot;She never dresses up, even when she goes to the opera&quot;; &quot;The young girls were all fancied up for the party&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">raise from a lower to a higher position; &quot;Raise your hands&quot;; &quot;Lift a load&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rise to one&apos;s feet; &quot;The audience got up and applauded&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Get_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">study intensively, as before an exam; &quot;I had to bone up on my Latin verbs before the final exam&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -20612,32 +20639,32 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">become extinguished; &quot;The lights suddenly went out and we were in the dark&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">date regularly; have a steady relationship with; &quot;Did you know that she is seeing an older man?&quot;; &quot;He is dating his former wife again!&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">go out of fashion; become unfashionable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">leave the house to go somewhere; &quot;We never went out when our children were small&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">move out of or depart from; &quot;leave the room&quot;; &quot;the fugitive has left the country&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_out</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Go_Out</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">take the field; &quot;The soldiers went out on missions&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -21402,7 +21429,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Have_got</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Have_Got</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">have or possess, either in a concrete or an abstract sense; &quot;She has $1,000 in the bank&quot;; &quot;He has got two beautiful daughters&quot;; &quot;She holds a Master&apos;s degree from Harvard&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -24462,22 +24489,22 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Look_after</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Look_After</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">keep under careful scrutiny; &quot;Keep an eye on this prisoner!&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Look_for</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Look_For</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">be excited or anxious about</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Look_for</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Look_For</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">try to locate or discover, or try to establish the existence of; &quot;The police are searching for clues&quot;; &quot;They are searching for the missing man in the entire county&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Look_like</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Look_Like</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bear a physical resemblance to; &quot;She looks like her mother&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -24919,11 +24946,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://cin.ufpe.br/nmf/childVocabulary#Make</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">undergo fabrication or creation; &quot;This wool makes into a nice sweater&quot;</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Male_child</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a youthful male person; &quot;the baby was a boy&quot;; &quot;she made the boy brush his teeth every night&quot;; &quot;most soldiers are only boys in uniform&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -26982,82 +27004,82 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">buy casually or spontaneously; &quot;I picked up some food for a snack&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eat by pecking at, like a bird</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fill with high spirits; fill with optimism; &quot;Music can uplift your spirits&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gain or regain energy; &quot;I picked up after a nap&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gather or collect; &quot;You can get the results on Monday&quot;; &quot;She picked up the children at the day care center&quot;; &quot;They pick up our trash twice a week&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get in addition, as an increase; &quot;The candidate picked up thousands of votes after his visit to the nursing home&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get to know or become aware of, usually accidentally; &quot;I learned that she has two grown-up children&quot;; &quot;I see that you have been promoted&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">give a passenger or a hitchhiker a lift; &quot;We picked up a hitchhiker on the highway&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">improve significantly; go from bad to good; &quot;Her performance in school picked up&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lift out or reflect from a background; &quot;The scarf picks up the color of the skirt&quot;; &quot;His eyes picked up his smile&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">meet someone for sexual purposes; &quot;he always tries to pick up girls in bars&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">perceive with the senses quickly, suddenly, or momentarily; &quot;I caught the aroma of coffee&quot;; &quot;He caught the allusion in her glance&quot;; &quot;ears open to catch every sound&quot;; &quot;The dog picked up the scent&quot;; &quot;Catch a glimpse&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">register (perceptual input); &quot;pick up a signal&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">take and lift upward</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">take into custody; &quot;the police nabbed the suspected criminals&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Pick_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">take up by hand; &quot;He picked up the book and started to read&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -28267,47 +28289,47 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">add to something existing; &quot;She put on a sun room&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">add to the odometer; &quot;He put on 1,000 miles on this trip&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">apply to a surface; &quot;She applied paint to the back of the house&quot;; &quot;Put on make-up!&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">carry out (performances); &quot;They turned in a splendid effort&quot;; &quot;They turned in top jobs for the second straight game&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fool or hoax; &quot;The immigrant was duped because he trusted everyone&quot;; &quot;You can&apos;t fool me!&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">increase (one&apos;s body weight); &quot;She gained 20 pounds when she stopped exercising&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">prepare and supply with the necessary equipment for execution or performance; &quot;mount a theater production&quot;; &quot;mount an attack&quot;; &quot;mount a play&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">put clothing on one&apos;s body; &quot;What should I wear today?&quot;; &quot;He put on his best suit for the wedding&quot;; &quot;The princess donned a long blue dress&quot;; &quot;The queen assumed the stately robes&quot;; &quot;He got into his jeans&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Put_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">put on the stove or ready for cooking; &quot;put on the tea, please!&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -32707,6 +32729,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#TV</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an electronic device that receives television signals and displays them on a screen; &quot;the British call a tv set a telly&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#TV</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">broadcasting visual images of stationary or moving objects; &quot;she is a star of screen and video&quot;; &quot;Television is a medium because it is neither rare nor well done&quot; - Ernie Kovacs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://cin.ufpe.br/nmf/childVocabulary#Table</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a company of people assembled at a table for a meal or game; &quot;he entertained the whole table with his witty remarks&quot;</Literal>
     </AnnotationAssertion>
@@ -32992,47 +33024,47 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">depart from the ground; &quot;The plane took off two hours late&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get started or set in motion, used figuratively; &quot;the project took a long time to get off the ground&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">leave; &quot;The family took off for Florida&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">make a subtraction; &quot;subtract this amount from my paycheck&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mimic or imitate in an amusing or satirical manner; &quot;This song takes off from a famous aria&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">prove fatal; &quot;The disease took off&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">remove clothes; &quot;take off your shirt--it&apos;s very hot in here&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">take away or remove; &quot;Take that weight off me!&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Take_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">take time off from work; stop working temporarily</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -34367,63 +34399,53 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cause to feel intense dislike or distaste</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cause to stop operating by disengaging a switch; &quot;Turn off the stereo, please&quot;; &quot;cut the engine&quot;; &quot;turn out the lights&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_off</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_Off</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">make a turn; &quot;turn off at the parking area&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">be contingent on; &quot;The outcomes rides on the results of the election&quot;; &quot;Your grade will depends on your homework&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">become hostile towards; &quot;The dog suddenly turned on the mailman&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cause to be agitated, excited, or roused; &quot;The speaker charged up the crowd with his inflammatory remarks&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cause to operate by flipping a switch; &quot;switch on the light&quot;; &quot;turn on the stereo&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">get high, stoned, or drugged; &quot;He trips every weekend&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">produce suddenly or automatically; &quot;Turn on the charm&quot;; &quot;turn on the waterworks&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_on</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Turn_On</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stimulate sexually; &quot;This movie usually arouses the male audience&quot;</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Tv</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an electronic device that receives television signals and displays them on a screen; &quot;the British call a tv set a telly&quot;</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Tv</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">broadcasting visual images of stationary or moving objects; &quot;she is a star of screen and video&quot;; &quot;Television is a medium because it is neither rare nor well done&quot; - Ernie Kovacs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -34732,12 +34754,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Wake_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Wake_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cause to become awake or conscious; &quot;He was roused by the drunken men in the street&quot;; &quot;Please wake me at 6 AM.&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Wake_up</IRI>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#Wake_Up</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stop sleeping; &quot;She woke up to the sound of the alarm clock&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -36369,6 +36391,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://cin.ufpe.br/nmf/childVocabulary#Zoo</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the facility where wild animals are housed for exhibition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#beautiful</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(of weather) highly enjoyable; &quot;what a beautiful day&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#beautiful</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">delighting the senses or exciting intellectual or emotional admiration; &quot;a beautiful child&quot;; &quot;beautiful country&quot;; &quot;a beautiful painting&quot;; &quot;a beautiful theory&quot;; &quot;a beautiful party&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#male_child</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a youthful male person; &quot;the baby was a boy&quot;; &quot;she made the boy brush his teeth every night&quot;; &quot;most soldiers are only boys in uniform&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#son</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a male human offspring; &quot;their son became a famous judge&quot;; &quot;his boy is taller than he is&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://cin.ufpe.br/nmf/childVocabulary#son</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the divine word of God; the second person in the Trinity (incarnate in Jesus)</Literal>
     </AnnotationAssertion>
 </Ontology>
 
